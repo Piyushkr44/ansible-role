@@ -1,0 +1,10 @@
+---
+# tasks file for nginx
+- import_tasks: epel_redhat.yml
+- import_tasks: nginx.yml
+- import_tasks: epel_redhat.yml
+- import_tasks: patch.yml
+- import_tasks: directory.yml
+- import_tasks: copy_symboliclink.yml
+- import_tasks: index.yml
+- import_tasks: start_nginx.yml
